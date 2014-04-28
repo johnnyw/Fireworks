@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8A88C4F190DD9FF00A59650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A88C4E190DD9FF00A59650 /* Foundation.framework */; };
+		C8A88C51190DD9FF00A59650 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A88C50190DD9FF00A59650 /* CoreGraphics.framework */; };
+		C8A88C53190DD9FF00A59650 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A88C52190DD9FF00A59650 /* UIKit.framework */; };
+		C8A88C55190DD9FF00A59650 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A88C54190DD9FF00A59650 /* SpriteKit.framework */; };
+		C8A88C5B190DD9FF00A59650 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8A88C59190DD9FF00A59650 /* InfoPlist.strings */; };
+		C8A88C5D190DD9FF00A59650 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A88C5C190DD9FF00A59650 /* main.m */; };
+		C8A88C61190DD9FF00A59650 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A88C60190DD9FF00A59650 /* AppDelegate.m */; };
+		C8A88C64190DD9FF00A59650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A88C62190DD9FF00A59650 /* Main.storyboard */; };
+		C8A88C67190DD9FF00A59650 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A88C66190DD9FF00A59650 /* ViewController.m */; };
+		C8A88C6A190DD9FF00A59650 /* FireworksScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A88C69190DD9FF00A59650 /* FireworksScene.m */; };
+		C8A88C6E190DD9FF00A59650 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8A88C6D190DD9FF00A59650 /* Images.xcassets */; };
+		C8A88C75190DD9FF00A59650 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A88C74190DD9FF00A59650 /* XCTest.framework */; };
+		C8A88C76190DD9FF00A59650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A88C4E190DD9FF00A59650 /* Foundation.framework */; };
+		C8A88C77190DD9FF00A59650 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A88C52190DD9FF00A59650 /* UIKit.framework */; };
+		C8A88C7F190DD9FF00A59650 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8A88C7D190DD9FF00A59650 /* InfoPlist.strings */; };
+		C8A88C81190DD9FF00A59650 /* FireworksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A88C80190DD9FF00A59650 /* FireworksTests.m */; };
+		C8E22C72190DDB8400C254A7 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = C8E22C70190DDB8400C254A7 /* Explosion.sks */; };
+		C8E22C73190DDB8400C254A7 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = C8E22C71190DDB8400C254A7 /* spark.png */; };
+		C8E22C75190DDC4600C254A7 /* Ascent.sks in Resources */ = {isa = PBXBuildFile; fileRef = C8E22C74190DDC4600C254A7 /* Ascent.sks */; };
+		C8E22C78190DE1CB00C254A7 /* SKEmitterNode+EmitterFomResourceNamed.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E22C77190DE1CB00C254A7 /* SKEmitterNode+EmitterFomResourceNamed.m */; };
+		C8E22C7B190DE24700C254A7 /* FireworkNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E22C7A190DE24700C254A7 /* FireworkNode.m */; };
+		C8E22C81190E08A200C254A7 /* fog.png in Resources */ = {isa = PBXBuildFile; fileRef = C8E22C80190E08A200C254A7 /* fog.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8A88C78190DD9FF00A59650 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8A88C43190DD9FF00A59650 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8A88C4A190DD9FF00A59650;
+			remoteInfo = Fireworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8A88C4B190DD9FF00A59650 /* Fireworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fireworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A88C4E190DD9FF00A59650 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C8A88C50190DD9FF00A59650 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C8A88C52190DD9FF00A59650 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C8A88C54190DD9FF00A59650 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		C8A88C58190DD9FF00A59650 /* Fireworks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fireworks-Info.plist"; sourceTree = "<group>"; };
+		C8A88C5A190DD9FF00A59650 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C8A88C5C190DD9FF00A59650 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8A88C5E190DD9FF00A59650 /* Fireworks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fireworks-Prefix.pch"; sourceTree = "<group>"; };
+		C8A88C5F190DD9FF00A59650 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C8A88C60190DD9FF00A59650 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C8A88C63190DD9FF00A59650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8A88C65190DD9FF00A59650 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C8A88C66190DD9FF00A59650 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C8A88C68190DD9FF00A59650 /* FireworksScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FireworksScene.h; sourceTree = "<group>"; };
+		C8A88C69190DD9FF00A59650 /* FireworksScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FireworksScene.m; sourceTree = "<group>"; };
+		C8A88C6D190DD9FF00A59650 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C8A88C73190DD9FF00A59650 /* FireworksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireworksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A88C74190DD9FF00A59650 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C8A88C7C190DD9FF00A59650 /* FireworksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FireworksTests-Info.plist"; sourceTree = "<group>"; };
+		C8A88C7E190DD9FF00A59650 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C8A88C80190DD9FF00A59650 /* FireworksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FireworksTests.m; sourceTree = "<group>"; };
+		C8E22C70190DDB8400C254A7 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Explosion.sks; path = ../Explosion.sks; sourceTree = "<group>"; };
+		C8E22C71190DDB8400C254A7 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = ../spark.png; sourceTree = "<group>"; };
+		C8E22C74190DDC4600C254A7 /* Ascent.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Ascent.sks; path = ../Ascent.sks; sourceTree = "<group>"; };
+		C8E22C76190DE1CB00C254A7 /* SKEmitterNode+EmitterFomResourceNamed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKEmitterNode+EmitterFomResourceNamed.h"; sourceTree = "<group>"; };
+		C8E22C77190DE1CB00C254A7 /* SKEmitterNode+EmitterFomResourceNamed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKEmitterNode+EmitterFomResourceNamed.m"; sourceTree = "<group>"; };
+		C8E22C79190DE24700C254A7 /* FireworkNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireworkNode.h; sourceTree = "<group>"; };
+		C8E22C7A190DE24700C254A7 /* FireworkNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireworkNode.m; sourceTree = "<group>"; };
+		C8E22C80190E08A200C254A7 /* fog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fog.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8A88C48190DD9FF00A59650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A88C51190DD9FF00A59650 /* CoreGraphics.framework in Frameworks */,
+				C8A88C53190DD9FF00A59650 /* UIKit.framework in Frameworks */,
+				C8A88C55190DD9FF00A59650 /* SpriteKit.framework in Frameworks */,
+				C8A88C4F190DD9FF00A59650 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A88C70190DD9FF00A59650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A88C75190DD9FF00A59650 /* XCTest.framework in Frameworks */,
+				C8A88C77190DD9FF00A59650 /* UIKit.framework in Frameworks */,
+				C8A88C76190DD9FF00A59650 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8A88C42190DD9FF00A59650 = {
+			isa = PBXGroup;
+			children = (
+				C8A88C56190DD9FF00A59650 /* Fireworks */,
+				C8A88C7A190DD9FF00A59650 /* FireworksTests */,
+				C8A88C4D190DD9FF00A59650 /* Frameworks */,
+				C8A88C4C190DD9FF00A59650 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8A88C4C190DD9FF00A59650 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8A88C4B190DD9FF00A59650 /* Fireworks.app */,
+				C8A88C73190DD9FF00A59650 /* FireworksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8A88C4D190DD9FF00A59650 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8A88C4E190DD9FF00A59650 /* Foundation.framework */,
+				C8A88C50190DD9FF00A59650 /* CoreGraphics.framework */,
+				C8A88C52190DD9FF00A59650 /* UIKit.framework */,
+				C8A88C54190DD9FF00A59650 /* SpriteKit.framework */,
+				C8A88C74190DD9FF00A59650 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8A88C56190DD9FF00A59650 /* Fireworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8E22C80190E08A200C254A7 /* fog.png */,
+				C8E22C76190DE1CB00C254A7 /* SKEmitterNode+EmitterFomResourceNamed.h */,
+				C8E22C77190DE1CB00C254A7 /* SKEmitterNode+EmitterFomResourceNamed.m */,
+				C8E22C70190DDB8400C254A7 /* Explosion.sks */,
+				C8E22C74190DDC4600C254A7 /* Ascent.sks */,
+				C8E22C71190DDB8400C254A7 /* spark.png */,
+				C8A88C5F190DD9FF00A59650 /* AppDelegate.h */,
+				C8A88C60190DD9FF00A59650 /* AppDelegate.m */,
+				C8A88C62190DD9FF00A59650 /* Main.storyboard */,
+				C8A88C65190DD9FF00A59650 /* ViewController.h */,
+				C8A88C66190DD9FF00A59650 /* ViewController.m */,
+				C8A88C68190DD9FF00A59650 /* FireworksScene.h */,
+				C8A88C69190DD9FF00A59650 /* FireworksScene.m */,
+				C8A88C6D190DD9FF00A59650 /* Images.xcassets */,
+				C8A88C57190DD9FF00A59650 /* Supporting Files */,
+				C8E22C79190DE24700C254A7 /* FireworkNode.h */,
+				C8E22C7A190DE24700C254A7 /* FireworkNode.m */,
+			);
+			path = Fireworks;
+			sourceTree = "<group>";
+		};
+		C8A88C57190DD9FF00A59650 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8A88C58190DD9FF00A59650 /* Fireworks-Info.plist */,
+				C8A88C59190DD9FF00A59650 /* InfoPlist.strings */,
+				C8A88C5C190DD9FF00A59650 /* main.m */,
+				C8A88C5E190DD9FF00A59650 /* Fireworks-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8A88C7A190DD9FF00A59650 /* FireworksTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8A88C80190DD9FF00A59650 /* FireworksTests.m */,
+				C8A88C7B190DD9FF00A59650 /* Supporting Files */,
+			);
+			path = FireworksTests;
+			sourceTree = "<group>";
+		};
+		C8A88C7B190DD9FF00A59650 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8A88C7C190DD9FF00A59650 /* FireworksTests-Info.plist */,
+				C8A88C7D190DD9FF00A59650 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8A88C4A190DD9FF00A59650 /* Fireworks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8A88C84190DD9FF00A59650 /* Build configuration list for PBXNativeTarget "Fireworks" */;
+			buildPhases = (
+				C8A88C47190DD9FF00A59650 /* Sources */,
+				C8A88C48190DD9FF00A59650 /* Frameworks */,
+				C8A88C49190DD9FF00A59650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fireworks;
+			productName = Fireworks;
+			productReference = C8A88C4B190DD9FF00A59650 /* Fireworks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8A88C72190DD9FF00A59650 /* FireworksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8A88C87190DD9FF00A59650 /* Build configuration list for PBXNativeTarget "FireworksTests" */;
+			buildPhases = (
+				C8A88C6F190DD9FF00A59650 /* Sources */,
+				C8A88C70190DD9FF00A59650 /* Frameworks */,
+				C8A88C71190DD9FF00A59650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8A88C79190DD9FF00A59650 /* PBXTargetDependency */,
+			);
+			name = FireworksTests;
+			productName = FireworksTests;
+			productReference = C8A88C73190DD9FF00A59650 /* FireworksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8A88C43190DD9FF00A59650 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "John Watson";
+				TargetAttributes = {
+					C8A88C72190DD9FF00A59650 = {
+						TestTargetID = C8A88C4A190DD9FF00A59650;
+					};
+				};
+			};
+			buildConfigurationList = C8A88C46190DD9FF00A59650 /* Build configuration list for PBXProject "Fireworks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8A88C42190DD9FF00A59650;
+			productRefGroup = C8A88C4C190DD9FF00A59650 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8A88C4A190DD9FF00A59650 /* Fireworks */,
+				C8A88C72190DD9FF00A59650 /* FireworksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8A88C49190DD9FF00A59650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A88C5B190DD9FF00A59650 /* InfoPlist.strings in Resources */,
+				C8E22C73190DDB8400C254A7 /* spark.png in Resources */,
+				C8E22C75190DDC4600C254A7 /* Ascent.sks in Resources */,
+				C8A88C6E190DD9FF00A59650 /* Images.xcassets in Resources */,
+				C8E22C81190E08A200C254A7 /* fog.png in Resources */,
+				C8A88C64190DD9FF00A59650 /* Main.storyboard in Resources */,
+				C8E22C72190DDB8400C254A7 /* Explosion.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A88C71190DD9FF00A59650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A88C7F190DD9FF00A59650 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8A88C47190DD9FF00A59650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E22C7B190DE24700C254A7 /* FireworkNode.m in Sources */,
+				C8A88C6A190DD9FF00A59650 /* FireworksScene.m in Sources */,
+				C8A88C67190DD9FF00A59650 /* ViewController.m in Sources */,
+				C8A88C61190DD9FF00A59650 /* AppDelegate.m in Sources */,
+				C8A88C5D190DD9FF00A59650 /* main.m in Sources */,
+				C8E22C78190DE1CB00C254A7 /* SKEmitterNode+EmitterFomResourceNamed.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A88C6F190DD9FF00A59650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A88C81190DD9FF00A59650 /* FireworksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8A88C79190DD9FF00A59650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8A88C4A190DD9FF00A59650 /* Fireworks */;
+			targetProxy = C8A88C78190DD9FF00A59650 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8A88C59190DD9FF00A59650 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8A88C5A190DD9FF00A59650 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C8A88C62190DD9FF00A59650 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8A88C63190DD9FF00A59650 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8A88C7D190DD9FF00A59650 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8A88C7E190DD9FF00A59650 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8A88C82190DD9FF00A59650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C8A88C83190DD9FF00A59650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8A88C85190DD9FF00A59650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fireworks/Fireworks-Prefix.pch";
+				INFOPLIST_FILE = "Fireworks/Fireworks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C8A88C86190DD9FF00A59650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fireworks/Fireworks-Prefix.pch";
+				INFOPLIST_FILE = "Fireworks/Fireworks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C8A88C88190DD9FF00A59650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fireworks.app/Fireworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fireworks/Fireworks-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FireworksTests/FireworksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C8A88C89190DD9FF00A59650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fireworks.app/Fireworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fireworks/Fireworks-Prefix.pch";
+				INFOPLIST_FILE = "FireworksTests/FireworksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8A88C46190DD9FF00A59650 /* Build configuration list for PBXProject "Fireworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A88C82190DD9FF00A59650 /* Debug */,
+				C8A88C83190DD9FF00A59650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8A88C84190DD9FF00A59650 /* Build configuration list for PBXNativeTarget "Fireworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A88C85190DD9FF00A59650 /* Debug */,
+				C8A88C86190DD9FF00A59650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8A88C87190DD9FF00A59650 /* Build configuration list for PBXNativeTarget "FireworksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A88C88190DD9FF00A59650 /* Debug */,
+				C8A88C89190DD9FF00A59650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8A88C43190DD9FF00A59650 /* Project object */;
+}
