@@ -49,7 +49,7 @@ SKColor* RandomColor(void)
         _ascentPath = CGPathCreateMutable();
         CGPathMoveToPoint(_ascentPath, NULL, 0, 0);
         CGFloat offset = signCounter++ % 2 == 0 ? 50 : -50;
-        CGPathAddQuadCurveToPoint(_ascentPath, NULL, offset / 2, size.height * 0.5, offset, size.height * 0.75);
+        CGPathAddQuadCurveToPoint(_ascentPath, NULL, 0, size.height * 0.5, offset, size.height * 0.75);
         
         [self addChild:_ascentEmitter];
         
@@ -66,6 +66,7 @@ SKColor* RandomColor(void)
 
 - (void)explode
 {
+    self.zPosition = 1;
     [_ascentEmitter removeFromParent];
     
     SKSpriteNode *fog = (SKSpriteNode*)[[self parent] childNodeWithName:@"fog"];

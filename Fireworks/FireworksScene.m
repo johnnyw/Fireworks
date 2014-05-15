@@ -14,8 +14,8 @@
 -(id)initWithSize:(CGSize)size {    
     if (self = [super initWithSize:size]) {
         self.backgroundColor = [SKColor blackColor];
-        SKAction *sequence = [SKAction sequence:@[[SKAction performSelector:@selector(addFirework) onTarget:self], [SKAction waitForDuration:1.5 withRange:0.5]]];
-        [self runAction:[SKAction repeatActionForever:sequence]];
+//        SKAction *sequence = [SKAction sequence:@[[SKAction performSelector:@selector(addFirework) onTarget:self], [SKAction waitForDuration:1.5 withRange:0.5]]];
+//        [self runAction:[SKAction repeatActionForever:sequence]];
         
         SKSpriteNode *fog = [SKSpriteNode spriteNodeWithImageNamed:@"fog"];
         fog.name = @"fog";
@@ -31,11 +31,21 @@
     return self;
 }
 
-- (void)addFirework
+//- (void)addFirework
+//{
+//    FireworkNode *node = [[FireworkNode alloc] initWithSceneBounds:self.size];
+//    node.zPosition = 1;
+//    [self addChild:node];
+//}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    FireworkNode *node = [[FireworkNode alloc] initWithSceneBounds:self.size];
-    node.zPosition = 1;
-    [self addChild:node];
+    for(UITouch *touch in touches) {
+        FireworkNode *firework = [[FireworkNode alloc] initWithSceneBounds:self.size];
+        firework.position = CGPointMake([touch locationInNode:self].x, 0);
+        firework.zPosition = 3; // change to 1 on explosion
+        [self addChild:firework];
+    }
 }
 
 @end

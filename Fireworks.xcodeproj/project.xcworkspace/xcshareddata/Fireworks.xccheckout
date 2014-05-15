@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9B41683D-0F51-4C31-B4CB-6D17EC2578D4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Fireworks</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CA92E32B-381A-4033-9365-01BBE9FE5258</key>
+		<string>https://github.com/johnnyw/Fireworks.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Fireworks.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CA92E32B-381A-4033-9365-01BBE9FE5258</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/johnnyw/Fireworks.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CA92E32B-381A-4033-9365-01BBE9FE5258</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CA92E32B-381A-4033-9365-01BBE9FE5258</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Fireworks</string>
+		</dict>
+	</array>
+</dict>
+</plist>
